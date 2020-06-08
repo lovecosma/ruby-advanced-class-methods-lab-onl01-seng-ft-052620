@@ -35,9 +35,9 @@ def self.create_by_name(title)
   return song
 end
 
- def find_by_name(title)
+ def self.find_by_name(title)
    @@all.each do |song|
-     return song if title == song.name 
+     return song if title == song.name
    end
  end
 
