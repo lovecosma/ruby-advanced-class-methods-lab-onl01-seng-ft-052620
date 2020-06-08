@@ -38,6 +38,7 @@ end
  def self.find_by_name(title)
    @@all.each do |song|
     if song.name == title
+      binding.pry
       return song
     else
       return nil
