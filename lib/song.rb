@@ -37,12 +37,11 @@ end
 
  def self.find_by_name(title)
    @@all.each do |song|
-     if title == song.name
-     return song
-   else
-     return nil
-     binding.pry
-   end
+    if song.name == title
+      return song
+    else
+      return nil
+    end 
    end
  end
 
