@@ -40,7 +40,7 @@ end
    @@all.each do |song|
       if song.name == title
       binding.pry
-      
+
     end
     #   return nil
     # end
