@@ -41,7 +41,7 @@ end
      binding.pry
     if song.name == title
       binding.pry
-      return song
+      print song.name
     end
     #   return nil
     # end
